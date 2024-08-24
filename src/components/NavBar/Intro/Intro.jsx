@@ -13,7 +13,7 @@ const Intro =()=>{
                     <Link><button className="btn"><img src={btnImg} alt="hire me" className="btnImg" />Hire Me</button></Link>
                       
             </div>
-            <img src="src/assets/image.png" alt="profile" className="bg" />
+            <img src="./src/assets/image.png" alt="profile" className="bg" />
         </section>
     )
 }
