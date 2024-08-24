@@ -2,7 +2,7 @@ import React from "react";
 import './intro.css';
 import {Link} from "react-scroll";
 import btnImg from '../../../assets/hireme.png'
-
+import myImg from '../../../assets/image.png'
 const Intro =()=>{
     return (
         <section id="intro">
@@ -13,7 +13,7 @@ const Intro =()=>{
                     <Link><button className="btn"><img src={btnImg} alt="hire me" className="btnImg" />Hire Me</button></Link>
                       
             </div>
-            <img src="./src/assets/image.png" alt="profile" className="bg" />
+            <img src={myImg} alt="profile" className="bg" />
         </section>
     )
 }
